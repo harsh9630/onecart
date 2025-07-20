@@ -14,7 +14,7 @@ import Cart from './pages/Cart.jsx'
 import PlaceOrder from './pages/PlaceOrder.jsx'
 import Order from './pages/Order.jsx'
 import { ToastContainer } from 'react-toastify';
-import NotFound from './pages/NotFound.jsx'
+import NotFound from './pages/Notfound.jsx'
 import Ai from './component/Ai.jsx'
 function App() {
 let {userData} = useContext(userDataContext)
