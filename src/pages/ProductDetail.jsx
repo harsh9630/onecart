@@ -90,12 +90,7 @@ function ProductDetail() {
            <button className='text-[16px] active:bg-slate-500 cursor-pointer bg-[#495b61c9] py-[10px] px-[20px] rounded-2xl mt-[10px] border-[1px] border-[#80808049] text-white shadow-md shadow-black' onClick={()=>addtoCart(productData._id , size)} >{loading? <Loading/> : "Add to Cart"}</button>
                 </div>
             <div className='w-[90%] h-[1px] bg-slate-700'></div>
-            <div className='w-[80%] text-[16px] text-white '>
-
-          <p>100% Original Product.</p>
-          <p>Cash on delivery is available on this product</p>
-          <p>East return and exchange policy within 7 days</p>
-            </div>
+          
             </div>
 
 
